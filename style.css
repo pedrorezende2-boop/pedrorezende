@@ -1,0 +1,124 @@
+/*Estilo de projeto */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+     font-family: Helvetica;
+     background-color: rgb(53, 0, 53);
+     color: rgb(83, 0, 109);
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+  padding: 20px; /*ESPAÇAMENTO INTERNO DO ELEMENTO*/
+}
+
+main{
+  max-width: 1200px; /*Largura máxima do conteúdo*/
+  margin: 48px auto 28px;
+}
+
+#banner{
+background-color: rgb(255, 255, 255);
+margin: 10px;
+padding: 20px;
+border-radius: 10px;
+}
+#banner{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#serviços{
+  background-color: rgb(255, 255, 255);
+margin: 10px;
+padding: 20px;
+border-radius: 10px;
+}
+#serviços ul{
+  padding-left: 20px;
+}
+#serviços ul li{
+  padding-top: 5px;
+}
+
+#funcionamento{
+background-color: rgb(255, 255, 255);
+margin: 10px;
+padding: 20px;
+border-radius: 10px;
+}
+
+footer{
+background-color: rgb(255, 255, 255);
+margin: 10px;
+padding: 20px;
+border-radius: 20px;
+}
+
+nav{
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 20px
+}
+
+label{
+color: aliceblue;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover{
+  color: rgb(255, 255, 255);
+}
+
+#contato{
+background-color: rgb(255, 255, 255);
+margin: 10px;
+padding: 20px;
+border-radius: 10px;
+}
+label{
+  color: blueviolet;
+}
+fieldset{
+  border: 1px dashed rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input{
+  margin: 10px 0px;
+}
+
+text{
+  color: #ffffffff;
+}
+
+.check{
+  margin-right: 10px; 
+}
+
+.button{ 
+  background-color: #d200fc(155, 6, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.button:hover{
+  background-color: beige;
+}
